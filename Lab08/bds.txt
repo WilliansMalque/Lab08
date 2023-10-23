@@ -1,0 +1,13 @@
+CREATE DATABASE crudlab06;
+USE crudlab06;
+
+CREATE TABLE persona(
+	id INT auto_increment PRIMARY KEY,
+	nombres VARCHAR(100),
+	apellido_paterno VARCHAR(100),
+	apellido_materno VARCHAR(100),
+	fecha_nacimiento DATE,
+	celular VARCHAR(12),
+	habitacion VARCHAR(10),
+	fechaReserva DATE,
+	NumeroDePersonas VARCHAR(10));
